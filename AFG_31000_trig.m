@@ -15,13 +15,13 @@ fprintf(is_trigger_on);
 fprintf(burstmode);
 fprintf(n_cycles);
 v.write("OUTP1:STAT ON");
-is_on = v.writeread("OUTP1:STAT?");
+% is_on = v.writeread("OUTP1:STAT?");
 v.write("FUNCTION SIN");
 v.write("FREQUENCY 3E3");
 v.write("VOLTAGE:AMPLITUDE 3.00");
 v.write("VOLTAGE:OFFSET 1.00");
 v.write("PHASE:ADJUST 0DEG");
-
+% 
 
 
 %% I NEED TO LOOK AT THE SEQuence function and see how that relates to triggering
