@@ -13,4 +13,5 @@ fprintf(v, "VOLTAGE:AMPLITUDE 0.10");
 fprintf(v, "VOLTAGE:OFFSET 0.00");
 fprintf(v, "PHASE:ADJUST 0DEG");
 fclose(v);
+fprintf("hello word");
 % v.writeread("TRIG:SOUR?")

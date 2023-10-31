@@ -1,5 +1,6 @@
 clear;
 close;
+fprintf("My name is Leo")
 % When I query, I get "1" if the query is
 v = visadev("USB0::0x0699::0x0355::C019986::INSTR");
 % Maybe need to call this only once: v.write("*RST");
